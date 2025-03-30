@@ -6,7 +6,7 @@ import { AuthProvider } from "./context/AuthContext";
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/footer";
 
-// Pages
+// Pages link with eachother
 import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage";
@@ -20,7 +20,7 @@ import ArticlePage from "./pages/Articles";
 // Protected route
 import PrivateRoute from "./components/auth/PrivateRoute";
 
-// Bootstrap
+// Bootstrap linking 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
