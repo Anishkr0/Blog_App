@@ -34,7 +34,7 @@ const MainNavbar = () => {
                   Write
                 </Nav.Link>
               )}
-              <Nav.Link as={Link} to="/" className="me-3">
+              <Nav.Link as={Link} to="/Abouts" className="me-3">
                 About
               </Nav.Link>
               <Nav.Link as={Link} to="/" className="me-3">

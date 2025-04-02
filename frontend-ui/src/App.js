@@ -14,7 +14,7 @@ import ProfilePage from "./pages/ProfilePage";
 import BlogPage from "./pages/BlogPage";
 import CreateBlogPage from "./pages/CreateBlogPage";
 import EditBlogPage from "./pages/EditBlogPage";
-import NotFoundPage from "./pages/NotFoundPage";
+// import About from "./pages/About";
 import ArticlePage from "./pages/Articles";
 
 // Protected route
@@ -23,6 +23,7 @@ import PrivateRoute from "./components/auth/PrivateRoute";
 // Bootstrap linking 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import About from "./pages/About";
 
 function App() {
   return (
@@ -41,7 +42,7 @@ function App() {
               <Route path="/create-blog" element={<CreateBlogPage />} />
               <Route path="/edit-blog/:id" element={<EditBlogPage />} />
             </Route>
-            <Route path="*" element={<NotFoundPage />} />
+            <Route path="/Abouts" element={<About />} />
           </Routes>
         </main>
         <Footer />
