@@ -37,7 +37,6 @@ const BlogPage = () => {
 
     fetchBlog();
   }, [id]);
-
   const handleDelete = async () => {
     if (window.confirm("Are you sure you want to delete this blog?")) {
       try {
@@ -51,13 +50,11 @@ const BlogPage = () => {
       }
     }
   };
-
   // Format date
   const formatDate = (dateString) => {
     const options = { year: "numeric", month: "long", day: "numeric" };
     return new Date(dateString).toLocaleDateString(undefined, options);
   };
-
   if (loading) {
     return (
       <Container className="text-center my-5">

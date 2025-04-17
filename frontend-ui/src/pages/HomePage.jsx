@@ -190,7 +190,6 @@ const HomePage = () => {
           <>
             {/* Recent Blog Posts - Only show 2 blogs */}
             <h2 className="mb-4">Recent blog posts</h2>
-
             <Row className="mb-5">
               {recentBlogs.length > 0 && (
                 <Col md={7}>

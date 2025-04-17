@@ -15,7 +15,7 @@ const MainNavbar = () => {
       {/* Rainbow gradient top line */}
       <div className="rainbow-top"></div>
 
-      <Navbar bg="white" expand="lg" className="py-3 border-bottom">
+      <Navbar bg="gray" expand="lg" className="py-3 border-bottom">
         <Container>
           <Navbar.Brand as={Link} to="/" className="fw-bold">
             TechA
